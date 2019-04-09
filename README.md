@@ -1,3 +1,4 @@
+
 # Sprint Challenge: JavaScript Fundamentals
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
@@ -29,14 +30,37 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   
+   ANSWER:
+    The biggest difference between .forEach and .map is .map returns a collection while .forEach runs a function on each element and returns nothing.
 
 2. What is the difference between a function and a method?
+   
+   ANSWER:
+    Both are functions technically, though in javascript a method is 
+    just a function that is property of an object.
 
 3. What is closure?
+   
+   ANSWER:
+    Closure makes "private" variables possible. A closure gives you access to
+    an outer functions scope(the lexical environment) from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
+   
+   ANSWER:
+    1. Window/Global object binding. When in the global scope, the value of 'this'
+    will be the window/console object. 
+    2. Implicit Binding. Like in object.method(args). 'This' is the object.
+    3. New binding. New binding is when a constructor function is used to create 
+    a new object with the new keyword.
+    4. Explicit binding. When call or apply method is used. You can set the context
+    of functions this way.
 
 5. Why do we need super() in an extended class?
+   
+   ANSWER:
+    Well super() calls the parent constructor. To call a parents function super.functionOnParent()
 
 ## Project Set up
 
